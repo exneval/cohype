@@ -1,0 +1,29 @@
+{
+  "name": "dw12jbdrz_management_room_server",
+  "version": "1.0.0",
+  "description": "Management Room App Server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx sequelize db:migrate",
+    "start": "node server.js"
+  },
+  "author": "exneval",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-group-routes": "^1.1.0",
+    "express-jwt": "^5.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.2",
+    "mysql2": "^1.7.0",
+    "npx": "^10.2.0",
+    "pg": "^7.12.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.21.1",
+    "sequelize-cli": "^5.5.1"
+  }
+}

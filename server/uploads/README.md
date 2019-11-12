@@ -1,0 +1,1 @@
+This is upload folder for avatar profile collection.
